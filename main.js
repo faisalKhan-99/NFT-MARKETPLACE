@@ -91,7 +91,7 @@ const userProfileButton= document.getElementById("btnUserInfo");
 userProfileButton.onclick = openUserInfo;
 
 const userInfo= document.getElementById("userInfo");
-//part3
+//Day 3
 const userUsernameField= document.getElementById("textUsername");
 const userEmailField= document.getElementById("txtEmail");
 const userAvatarImg= document.getElementById("imgavatar");
@@ -102,7 +102,7 @@ document.getElementById("btnCloseUserInfo").onclick = () => hideElement(userInfo
 document.getElementById("btnLogout").onclick = logout;//hook up the funcionality to the button
 document.getElementById("btnSaveUserInfo").onclick = saveUserInfo;
 
-
+//Day 4 
 const createItemForm= document.getElementById("createItem");
 
 const createItemNameField= document.getElementById("txtCreateItemName");
