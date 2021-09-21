@@ -86,11 +86,13 @@ createItem = async()=>{
 	console.log('here');
 	if(createItemFile.files.length==0){
 		alert('Please select a file to upload');
+		console.log('if here');
 		return;
 	}
 	//selected a name?
 	else if(createItemNameField.value.length==0){
 		alert('Please specify a name');
+		console.log('else here');
 		return;
 	}
 	//create and store on IPFS now
